@@ -10,8 +10,6 @@ root = tkinter.Tk()
 root.title("OSMNX Interception")
 
 
-fig = None
-
 # download/model a street network for some city then visualize it
 G = ox.graph_from_place("Cuyahoga Falls, Ohio, USA", network_type="drive")
 
