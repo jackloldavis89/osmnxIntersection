@@ -5,7 +5,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg  # for displayin
 
 # our basic gui
 root = tkinter.Tk()
-root.title("OSMNX Interception")
+root.title("Swifter Sirens Simulation")
 
 
 # download/model a street network for some city then visualize it
