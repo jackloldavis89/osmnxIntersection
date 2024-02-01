@@ -1,7 +1,5 @@
 import osmnx as ox  # for the graphing and driving map capabilities
 import random  # for random.choice() in the list of nodes
-import ctypes  # for our message box
-import threading  # to display warning and map at once with multi threading
 import tkinter  # gui
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg  # for displaying on our gui
 
